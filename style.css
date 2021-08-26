@@ -1,0 +1,176 @@
+img {
+   max-width: 100%;
+}
+html{
+   scroll-behavior: smooth;
+}
+ /* Header Css */
+ .header{
+    background-color: #3498db;
+ }
+ .header img {
+    width: 160px;
+    height: auto;
+    padding: 10px;
+ }
+
+ 
+ .header-right ul{
+    text-align: right;
+    margin-bottom: 0px;
+ }
+ .header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+ }
+ .header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 20px;
+    border-right: 1px solid #ddd;
+    line-height: 3;
+    transition: .4s;
+ }
+ .header-right ul li a:hover{
+    background-color: #2980b9;
+ }
+ 
+ /* Banner Css */
+ .banner {
+    background: url(https://i.postimg.cc/pVq0RrPY/images-2.jpg) no-repeat center;
+    background-size: auto;
+    padding: 246px 0;
+    background-size: cover;
+}
+ .banner-caption{}
+ .banner-caption h2{
+    background-color: rgba(0, 0, 0, 0.404);
+    color: wheat;
+    display: inline-block;
+    font-size: 45px;
+    padding: 6px 33px;
+    border-radius: 10px;
+ }
+ .banner-caption h1{
+    background-color: #297fb9ab;
+    color: wheat;
+    font-size: 56px;
+    max-width: 734px;
+    margin: auto;
+    padding: 9px 0;
+    border-radius: 20px;
+    margin-top: 26px;
+ }
+ 
+ /* About Section */
+ .about{
+    margin-top: 60px;
+ }
+ .about h2{font-size: 48px;}
+ .about p {
+   font-size: 18px;
+   
+  
+}
+ /* Service Section */
+ .service{
+    margin-top: 60px;
+ }
+ .service-item {
+    border: 1px solid #ddd;
+    padding: 40px 10px;
+    text-align: center;
+}
+ .service-item span{
+    display: inline-block;
+    background: orange;
+    color: #fff;
+    padding: 18px 30px;
+    font-size: 35px;
+    border-radius: 28px 0px;
+ }
+ .service-item h2{margin-top: 23px;
+    font-size: 35px;
+ }
+ .service-item p{}
+ 
+ /* Blog Section */
+ 
+ 
+ .blog-item{
+    margin-bottom: 30px;
+ }
+ .blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 15px;
+ }
+ 
+ /* Blog Notification */
+ /*  Blog Section  */
+ .blog-container{
+    padding-top: 60px;
+    padding-bottom: 40px;
+ }
+ /* .blog-left-content{
+    float: left;
+    width: 70%;
+ } */
+ 
+ .blog-item{
+    margin-bottom: 30px;
+ }
+ .blog-item img{
+    float: left;
+    width: 191px;
+    height: auto;
+    margin-right: 15px;
+ }
+ 
+ /* Blog Notification */
+ .blog-left-notificaiton{
+   margin-top: -214px;
+ }
+ .blog-left-notificaiton h2 {
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+ }
+ .blog-left-notificaiton ul{
+    list-style: none;
+ }
+ .blog-left-notificaiton ul li {
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+ }
+ 
+ /* Footer */
+ .footer{
+    background: #2c3e50;
+    color: #fff;
+    padding: 25px 0;
+ }
+ 
+ .footer-left {
+   text-align: end;
+}
+ .footer-right li{
+    display: inline-block;
+ }
+ .footer-right li a {
+   color: darkturquoise;
+    font-size: 20px;
+    margin-left: 10px;
+ }
+ .footer-right li a:hover{ 
+
+   color: white;
+ }
